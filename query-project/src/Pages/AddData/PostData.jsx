@@ -5,7 +5,7 @@ import {
   Button,
   Typography,
 } from "@mui/material";
-import { useMutation } from "@tanstack/react-query";
+import { useMutation, useQueryClient  } from "@tanstack/react-query";
 import axios from "axios";
 import UniversitiesList from "./UniversitiesList";
 
@@ -15,6 +15,9 @@ const addData = (university) => {
 };
 
 const PostData = () => {
+  const queryClient = useQueryClient();
+  const refetch = () => queryClient.invalidateQueries(["universities"]);
+  
   const [formData, setFormData] = useState({
     title: "",
     body: "",

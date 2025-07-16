@@ -8,16 +8,18 @@ const updateUniversity = ({ id, title, body }) => {
 };
 
 const EditUniData = ({ id, onClose, initialData }) => {
+  // console.log("initialData:", initialData);
   const [formData, setFormData] = useState({
     title: initialData?.title || '',
     body: initialData?.body || ''
   });
   const queryClient = useQueryClient();
-
+  const refetch = () => queryClient.invalidateQueries(['universities']);
+  
   const updateMutation = useMutation({
     mutationFn: updateUniversity,
     onSuccess: () => {
-      queryClient.invalidateQueries(['universities']);
+      refetch(); // Refetch universities after successful update
       onClose();
     },
   });

@@ -12,12 +12,12 @@ const fetchPosts = () => {
 };
 const UniversitiesList = () => {
 
-    const [openDeleteDialog, setOpenDeleteDialog] = useState(false);
+  const [openDeleteDialog, setOpenDeleteDialog] = useState(false);
   const [selectedId, setSelectedId] = useState(null);
 
   const [openEditDialog, setOpenEditDialog] = useState(false);
 
- const { data, refetch } = useQuery({
+ const { data } = useQuery({
     queryKey: ["universities"],
     queryFn: fetchPosts,
   });
@@ -135,6 +135,7 @@ setSelectedId(null);
         
       <EditUniData
       id={selectedId}
+      initialData={data?.data.find((university) => university.id === selectedId)}
       onClose={handleCloseEditDialog}
       />
       </Dialog>
