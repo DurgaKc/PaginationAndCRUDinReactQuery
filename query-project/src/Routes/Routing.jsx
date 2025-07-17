@@ -9,6 +9,7 @@ import PaginatedQueries from '../Pages/ReactQuery/PaginatedQueries'
 import InfiniteQueries from '../Pages/ReactQuery/InfiniteQueries'
 import InfiniteAutoScroll from '../Pages/ReactQuery/InfiniteAutoScroll'
 import PostData from '../Pages/AddData/PostData'
+import Logout from '../Pages/Logout'
 
 const Routing = () => {
   return (
@@ -24,6 +25,7 @@ const Routing = () => {
             <Route path='/infinite-fruits' element={<InfiniteQueries/>}/>
             <Route path='/infinite-autoscroll' element={<InfiniteAutoScroll/>}/>
             <Route path='/post-data' element={<PostData/>}/>
+            <Route path='/logout' element={<Logout/>}/>
           </Route>
         </Routes>
         

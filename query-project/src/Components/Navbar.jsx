@@ -60,8 +60,6 @@ const Navbar = () => {
         </Button>
          <Button 
         color="inherit" 
-        // component={Link} 
-        // to="/query"
         sx={{
           fontSize: "18px",
           fontFamily: "Arial, sans-serif",
@@ -124,6 +122,16 @@ const Navbar = () => {
             textTransform: "none" }}
         >
          Post Data
+        </Button>
+         <Button color="inherit" component={Link} to="/logout"
+        sx={{
+            fontSize: "18px",
+            fontFamily: "Arial, sans-serif",
+            textTransform: "none",
+            marginRight:"10px"
+           }}
+        >
+          Logout
         </Button>
       </Toolbar>
     </AppBar>
