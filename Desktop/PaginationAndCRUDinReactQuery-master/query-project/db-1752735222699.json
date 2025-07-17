@@ -1,0 +1,103 @@
+{
+  "posts": [
+    {
+      "id": "11",
+      "title": "hello World",
+      "body": "The \"Hello, World!\" program, a ubiquitous introductory program in computer programming, originated in the late 1970s, specifically with the publication of \"The C Programming Language\" by Brian Kernighan and Dennis Ritchie. This book used it as a simple example to illustrate the C language's syntax. While similar examples existed earlier in the B language, the C version cemented its place as a standard first program for learning new languages."
+    },
+    {
+      "id": "12",
+      "title": "mercury",
+      "body": "Mercury is the smallest planet in our solar system, and the closest to the Sun. It is a rocky planet with a heavily cratered surface, similar to Earth's moon. Mercury has a thin atmosphere and a very large iron core. "
+    },
+    {
+      "id": "13",
+      "title": " AI In 2025",
+      "body": "In 2025, Artificial Intelligence (AI) is poised to become even more integrated into daily life, with advancements in areas like autonomous agents, cybersecurity, and personalized learning. AI will also play a bigger role in shaping how we work and learn, with a shift towards augmented working and hyper-personalized online learning experiences."
+    }
+  ],
+  "universities": [
+    {
+      "id": "a1eb",
+      "title": "Aute minima dolore e",
+      "body": "Laboriosam minima e"
+    },
+    {
+      "title": "PU",
+      "body": "Pokhara University",
+      "id": "b6b3"
+    },
+    {
+      "title": "TU",
+      "body": "Tribhuvan University",
+      "id": "46bd"
+    }
+  ],
+  "fruits": [
+    {
+      "id": "1",
+      "title": "Apple",
+      "body": "Depending on the variety, apples can be sweet or tart, but they usually have a crispy, juicy texture."
+    },
+    {
+      "id": "2",
+      "title": "Banana",
+      "body": " banana is an elongated, edible fruit—botanically a berry—produced by several kinds of large treelike herbaceous flowering plants in the genus Musa."
+    },
+    {
+      "id": "3",
+      "title": "Strawberries",
+      "body": "Strawberries are a juicy red fruit with a high water content. The seeds provide plenty of dietary fiber per serving."
+    },
+    {
+      "id": "4",
+      "title": "Mango",
+      "body": "A mango is an edible stone fruit produced by the tropical tree Mangifera indica. It originated from the region between northwestern Myanmar, Bangladesh, and northeastern India"
+    },
+    {
+      "id": "5",
+      "title": "Orange",
+      "body": "The orange, also called sweet orange to distinguish it from the bitter orange, is the fruit of a tree in the family Rutaceae."
+    },
+    {
+      "id": "6",
+      "title": "Grapes",
+      "body": "A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes are a non-climacteric type of fruit, generally occurring in clusters."
+    },
+    {
+      "id": "7",
+      "title": "Cherry",
+      "body": "A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe. Commercial cherries are obtained from cultivars of several species, such as the sweet Prunus avium."
+    },
+    {
+      "id": "8",
+      "title": "Blueberry",
+      "body": "Blueberries are a widely distributed and widespread group of perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium."
+    },
+    {
+      "id": "9",
+      "title": "Coconut",
+      "body": "The coconut tree is a member of the palm tree family and the only living species of the genus Cocos. The term coconut can refer to the whole coconut palm, the seed, or the fruit."
+    },
+    {
+      "id": "10",
+      "title": "Kiwi",
+      "body": "Kiwifruit, or Chinese gooseberry, is the edible berry of several species of woody vines in the genus Actinidia. The most common cultivar group of kiwifruit is oval."
+    },
+    {
+      "id": "11",
+      "title": "Pineapple",
+      "body": "The pineapple is a tropical plant with an edible fruit; it is the most economically significant plant in the family Bromeliaceae. The pineapple is indigenous to South America."
+    },
+    {
+      "id": "12",
+      "title": "Pomegranate",
+      "body": "The pomegranate is a fruit-bearing deciduous shrub in the family Lythraceae, subfamily Punicoideae, that grows between 5 and 10 m tall."
+    },
+    {
+      "id": "f2d2",
+      "title": "Repellendus Cum et ",
+      "body": "Mollit sapiente duci"
+    }
+  ]
+}
